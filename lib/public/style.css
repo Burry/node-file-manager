@@ -1,0 +1,48 @@
+body {
+	margin-top: 75px;
+}
+
+@media (max-width: 767px) { 
+	body {
+		margin-top: 120px;
+	}
+	
+	.navbar {
+		padding-bottom: 10px;
+	}
+	
+	.btn-toolbar {
+		float: none;
+		margin: auto;
+	}
+}
+
+a {
+	color: #333;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+.sortable {
+	cursor: pointer;
+}
+
+.navbar-brand {
+	font-weight: 400;
+}
+
+.navbar-brand:hover {
+	color: #777 !important;
+}
+
+.btn-toolbar {
+	margin: 8px 0px auto auto;
+}
+
+.fa-home {
+	margin-right: 10px;
+}
